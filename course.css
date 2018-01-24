@@ -111,8 +111,18 @@ footer.fa {
 }.btnApply:hover {
     color: #0F5DA9;
 }
-
-
+.curri h1{
+    color: #0F5DA9;
+}
+.phasen h3 {
+    color: #0F5DA9;
+}
+.phasen button {
+    color: #0F5DA9;
+}
+button{
+    color: #0F5DA9;   
+}
 @media (max-device-width: 800px) {
     .flex1 {
         flex-direction: column;

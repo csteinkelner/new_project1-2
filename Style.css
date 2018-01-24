@@ -7,7 +7,9 @@ body {
 /* INDEX PAGE
 ===================================================================================*/
 
-
+.jumbotron h1{
+    color: #0F5DA9;
+}
 /* carousel fullscreen */
 
 .carousel-fullscreen .carousel-inner .item {
