@@ -43,7 +43,10 @@ header img {
     border-radius: 0;
     border: none;
 }
-
+#firstH1{
+    margin-top: 0px;
+    margin-bottom: 35px;
+}
 footer {
     text-align: center;
     padding: 20px 0;
@@ -66,6 +69,9 @@ footer {
 
 #myBtn span {
     font-size: 40px;
+}
+.jumbotron{
+    padding-top: 0px;
 }
 
 @media (max-device-width: 800px) {
