@@ -129,8 +129,12 @@ footer.fa {
       
       .title {
         color: grey;
-        font-size: 18px;
+        font-size: 12px;
       }
     .ma {
         margin-top: 20px;
+    }
+
+    .company {
+        font-size: 18px;
     }
