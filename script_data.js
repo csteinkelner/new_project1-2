@@ -14,7 +14,7 @@ class Trainer{
 		let content = `
 			<div class="col-lg-4 col-md-4 col-4 content">
 				  <div class="avatar-flip">
-				  <h2>${this.name}</h2>
+				  <h2 class="incircle">${this.name}</h2>
 				  <img src= ${this.img1} class='pic'>
 				  </div>
 				  <h2>${this.surname}</h2>
