@@ -1,15 +1,8 @@
-(function($) {
-    'use strict';
-    $('#collapseOne, #collapseTwo, #collapseThree, #collapseFour').on({
-    
-      'show.bs.collapse': function() {
-        $('a[href="#' + this.id + '"] span.glyphicons-chevron-down')
-          .addClass('glyphicons-chevron-up');
-      },
-      
-      'hide.bs.collapse': function() {
-        $('a[href="#' + this.id + '"] span.glyphicon-chevron-up')
-          .addClass('glyphicons-chevron-down');
-      }
-    });
-  })(jQuery);
+function toggleIcon(e) {
+  $(e.target)
+      .prev('.panel-heading')
+      .find(".more-less")
+      .toggleClass('glyphicon-plus glyphicon-minus');
+}
+$('.panel-group').on('hidden.bs.collapse', toggleIcon);
+$('.panel-group').on('shown.bs.collapse', toggleIcon);
