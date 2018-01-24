@@ -3,8 +3,16 @@ body {
 }
 
 .navbar {
-    border-radius: 0px;
+    margin: 0;
+    border-radius: 0;
+    border: none;
+    background-color: rgba(103,117,125, 0.5);
 }
+
+.navbar a {
+    color: white;
+}
+
 
 footer.fa {
     padding: 20px;

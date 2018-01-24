@@ -11,6 +11,11 @@ header img {
     margin: 0;
     border-radius: 0;
     border: none;
+    background-color: rgba(103, 117, 125, 0.5);
+}
+
+.navbar a {
+    color: white;
 }
 
 footer {
@@ -19,7 +24,6 @@ footer {
     background-color: #222222;
     color: #9D9D9D;
 }
-
 
 #title {
     margin-bottom: 30px;
@@ -39,102 +43,101 @@ footer {
         flex-flow: column;
     }
 }
-.navbar .navbar-inverse
-footer{
+
+.navbar .navbar-inverse footer {
     bottom: 0;
     width: 100%;
 }
+
 footer.fa {
-        padding: 20px;
-        font-size: 35px;
-        width: 35px;
-        text-align: center;
-        text-decoration: none;
-        border-radius: 50%;
+    padding: 20px;
+    font-size: 35px;
+    width: 35px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
 
-    }
+.fa:hover {
+    opacity: 0.7;
+}
 
-    /* Add a hover effect if you want */
-    .fa:hover {
-        opacity: 0.7;
-    }
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
 
-    /* Set a specific color for each brand */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
 
-    /* Facebook */
-    .fa-facebook {
-        background: #3B5998;
-        color: white;
-    }
+.con {
+    padding-left: 30%;
+    clear: both;
+}
 
-    /* Twitter */
-    .fa-twitter {
-        background: #55ACEE;
-        color: white;
-    } 
-    .con {
-        padding-left: 30%;
-        clear: both;
-    }
-    .cont {
-        background-image: url(img/contact.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-    .split {
-      
-        width: 50%;
-        
-        z-index: 1;
-        top: 0;
-        overflow-x: hidde;n
-       
-    }
-    
-    .left {
-        left: 0;
-        background-color: #111;
-    }
-    
-    .right {
-        right: 0;
-        background-color: red;
-    }
-    
-    .centered {
-        
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        text-align: center;
-    }
-    
-    .centered img {
-        width: 150px;
-        border-radius: 50%;
-    }
-    .flex2 {
-        display: flex;
-        flex-direction: column;
+.cont {
+    background-image: url(img/contact.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px;
+    margin-bottom: 30px;
+    background-attachment: fixed;
+}
 
-    }
+.split {
+    width: 50%;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidde;
+    n
+}
 
-    .card {
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-        max-width: 500px;
-        margin: auto;
-        text-align: center;
-        font-family: arial;
-      }
-      
-      .title {
-        color: grey;
-        font-size: 12px;
-      }
-    .ma {
-        margin-top: 20px;
-    }
+.left {
+    left: 0;
+    background-color: #111;
+}
 
-    .company {
-        font-size: 18px;
-    }
+.right {
+    right: 0;
+    background-color: red;
+}
+
+.centered {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.centered img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+.flex2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+}
+
+.title {
+    color: grey;
+    font-size: 12px;
+}
+
+.ma {
+    margin-top: 20px;
+}
+
+.company {
+    font-size: 18px;
+}
