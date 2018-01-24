@@ -1,5 +1,6 @@
 body {
     font-family: 'Open Sans', sans-serif;
+    background-color: white;
 }
 
 
@@ -42,6 +43,7 @@ header img {
     border-radius: 0;
     border: none;
     background-color: rgba(103,117,125, 0.5);
+    height: 20px;
 }
 
 .navbar a {
@@ -76,6 +78,7 @@ footer {
 }
 .jumbotron{
     padding-top: 0px;
+    background-color: white;
 }
 
 @media (max-device-width: 800px) {
