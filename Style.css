@@ -1,5 +1,5 @@
 body {
-    background-color: #f0f0f0;
+  
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -43,6 +43,7 @@ header img {
     border-radius: 0;
     border: none;
 }
+
 
 footer {
     text-align: center;
