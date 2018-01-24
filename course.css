@@ -45,9 +45,9 @@ footer.fa {
     border: 0;
 }
 
-.panel-title {
+.panel-heading {
     font-size: 14px;
-    
+    background-color: transparent;
 }
 
 .panel-title > a {
