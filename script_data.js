@@ -19,9 +19,9 @@ class Trainer{
 				  </div>
 				  <h2>${this.surname}</h2>
 				  <h3>age: ${this.age}</h3>
-				  <h3>Field of experties: ${this.field_of_experties}
-				  <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Maecenas sed diam eget risus varius blandit sit amet non magna ip sum dolore.</p>
-				  <p>Connec dolore ipsum faucibus mollis interdum. Donec ullamcorper nulla non metus auctor fringilla.</p>
+				  <h3>Field of experties: ${this.field_of_experties}</h3><br>
+				  <p class="cardP">Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Maecenas sed diam eget risus varius blandit sit amet non magna ip sum dolore.</p>
+				  <p class="cardP">Connec dolore ipsum faucibus mollis interdum. Donec ullamcorper nulla non metus auctor fringilla.</p>
 		  	</div>
 		`
 		return content;
