@@ -149,3 +149,7 @@ button{
     }
 
 }
+.tabcontent{
+    height: auto;
+    min-height: 300px;
+}
