@@ -37,13 +37,6 @@ footer {
     color: #0F5DA9;
 }
 
-
-
-.navbar .navbar-inverse footer {
-    bottom: 0;
-    width: 100%;
-}
-
 footer.fa {
     padding: 20px;
     font-size: 35px;
