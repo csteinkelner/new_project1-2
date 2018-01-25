@@ -1,3 +1,15 @@
+.navbar {
+  margin: 0;
+  border-radius: 0;
+  border: none;
+  background-color: rgba(103,117,125, 0.5);
+}
+
+.navbar a {
+  color: white;
+}
+
+
 .background {
   background-image: url(img/contact.jpg);
   background-repeat: no-repeat;
@@ -95,3 +107,17 @@ p {
   color:  #00baff;
   margin-top: 50px;
 } 
+
+@media (max-device-width: 800px) {
+  header {
+      padding-left: 40px;
+  }
+  header img {
+      width: 100%;
+  }
+  .navbar {
+      display: flex;
+      flex-direction: column;
+      align-content: center;
+  }
+}

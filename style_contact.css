@@ -11,7 +11,7 @@ header img {
     margin: 0;
     border-radius: 0;
     border: none;
-    background-color: rgba(103, 117, 125, 0.5);
+    background-color: rgba(103,117,125, 0.5);
 }
 
 .navbar a {
@@ -37,12 +37,7 @@ footer {
     color: #0F5DA9;
 }
 
-@media (max-device-width: 1200px) {
-    .flex {
-        display: flex;
-        flex-flow: column;
-    }
-}
+
 
 .navbar .navbar-inverse footer {
     bottom: 0;
@@ -90,8 +85,6 @@ footer.fa {
     width: 50%;
     z-index: 1;
     top: 0;
-    overflow-x: hidde;
-    n
 }
 
 .left {
@@ -143,4 +136,30 @@ footer.fa {
 }
 #form_container h2{
     color: #0F5DA9;
+}
+
+@media (max-device-width: 800px) {
+    header {
+        padding-left: 40px;
+    }
+    header img {
+        width: 100%;
+    }
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+    .con {
+        padding-left: 0;
+    }
+}
+
+
+
+@media (max-device-width: 1200px) {
+    .flex {
+        display: flex;
+        flex-flow: column;
+    }
 }

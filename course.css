@@ -48,6 +48,7 @@ footer.fa {
 
 .phasen {
     margin-bottom: 20px;
+    height: auto;
 }
 
 
@@ -127,4 +128,24 @@ button{
     .flex1 {
         flex-direction: column;
     }
+    header {
+        padding-left: 40px;
+    }
+    header img {
+        width: 100%;
+    }
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+}
+
+@media (max-device-width: 600px) {
+    .phasen {
+     
+    }
+    .tab {
+    }
+
 }
