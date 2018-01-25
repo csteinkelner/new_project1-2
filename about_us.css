@@ -1,6 +1,12 @@
-/* body{
-  background-color: #f0f0f0;
-} */
+.background {
+  background-image: url(img/contact.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px;
+  margin-bottom: 30px;
+  background-attachment: fixed;
+}
+
 .row{
   margin-bottom: 20px;
 }
